@@ -492,40 +492,7 @@ button {
     padding: 12px 20px;
     text-align: center;
   }
-
-  .step1::before {
-    background-image: url(../img/wallet.svg);
-    background-repeat: no-repeat;
-    content: "";
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-  }
-
-  .step2::before {
-    background-image: url(../img/swap.svg);
-    background-repeat: no-repeat;
-    content: "";
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-  }
-
-  .step3::before {
-    background-image: url(../img/token.svg);
-    background-repeat: no-repeat;
-    content: "";
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-  }
-
+  
   .buy__tabs-item {
     padding-left: 0px;
     padding-top: 300px;
