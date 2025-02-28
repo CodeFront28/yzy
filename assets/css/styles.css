@@ -1,20 +1,20 @@
 @font-face {
   font-family: Minicupcake;
-  src: url(../fonts/Minicupcake.otf) format("opentype");
+  src: url(assets/fonts/Minicupcake.otf) format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: sambi lemon;
-  src: url(../fonts/sambilemon.ttf) format("truetype");
+  src: url(assets/fonts/sambilemon.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: Stop Bullying;
-  src: url(../fonts/StopBullying.otf) format("opentype");
+  src: url(assets/fonts/StopBullying.otf) format("opentype");
   font-weight: 400;
   font-style: normal;
 }
