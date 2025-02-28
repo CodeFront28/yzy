@@ -218,41 +218,20 @@ h3 {
   backdrop-filter: blur(6.650000095367432px);
 }
 
-.step1::before {
+.step1 {
   background-image: url(assets/img/wallet.svg);
   background-repeat: no-repeat;
-  content: "";
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-  z-index: -1;
 }
 
-.step2::before {
+.step2 {
   background-image: url(assets/img/swap.svg);
   background-repeat: no-repeat;
   background-position: 30px 0;
-  content: "";
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-  z-index: -1;
 }
 
-.step3::before {
+.step3 {
   background-image: url(assets/img/token.svg);
   background-repeat: no-repeat;
-  content: "";
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-  z-index: -1;
 }
 
 .buy__tab-title {
@@ -512,6 +491,39 @@ button {
     font-size: 23px;
     padding: 12px 20px;
     text-align: center;
+  }
+
+  .step1::before {
+    background-image: url(assets/img/wallet.svg);
+    background-repeat: no-repeat;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+  }
+
+    .step2::before {
+    background-image: url(assets/img/swap.svg);
+    background-repeat: no-repeat;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+  }
+
+    .step3::before {
+    background-image: url(assets/img/token.svg);
+    background-repeat: no-repeat;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
   }
 
   .buy__tabs-item {
