@@ -70,9 +70,9 @@ body {
   font-size: 18px;
 }
 
-.active {
+.navbar__item:hover {
   font-weight: 500;
-  text-decoration: underline;
+  transition: 0.5s;
 }
 .btn {
   padding: 10px 25px;
