@@ -2,14 +2,14 @@
 
 @font-face {
   font-family: Benzin;
-  src: url(/assets/fonts/Benzin-Medium.woff2) format("woff2");
+  src: url(../fonts/Benzin-Medium.woff2) format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: Vela Sans;
-  src: url(/assets/fonts/VelaSans-SemiBold.otf) format("opentype");
+  src: url(../fonts/VelaSans-SemiBold.otf) format("opentype");
   font-weight: 600;
   font-style: normal;
 }
@@ -219,18 +219,18 @@ h3 {
 }
 
 .step1 {
-  background-image: url(assets/img/wallet.svg);
+  background-image: url(../img/wallet.svg);
   background-repeat: no-repeat;
 }
 
 .step2 {
-  background-image: url(assets/img/swap.svg);
+  background-image: url(../img/swap.svg);
   background-repeat: no-repeat;
   background-position: 30px 0;
 }
 
 .step3 {
-  background-image: url(assets/img/token.svg);
+  background-image: url(../img/token.svg);
   background-repeat: no-repeat;
 }
 
@@ -494,7 +494,7 @@ button {
   }
 
   .step1::before {
-    background-image: url(assets/img/wallet.svg);
+    background-image: url(../img/wallet.svg);
     background-repeat: no-repeat;
     content: "";
     top: 0;
@@ -504,8 +504,8 @@ button {
     position: fixed;
   }
 
-    .step2::before {
-    background-image: url(assets/img/swap.svg);
+  .step2::before {
+    background-image: url(../img/swap.svg);
     background-repeat: no-repeat;
     content: "";
     top: 0;
@@ -515,8 +515,8 @@ button {
     position: fixed;
   }
 
-    .step3::before {
-    background-image: url(assets/img/token.svg);
+  .step3::before {
+    background-image: url(../img/token.svg);
     background-repeat: no-repeat;
     content: "";
     top: 0;
