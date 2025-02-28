@@ -1,0 +1,532 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@font-face {
+  font-family: Benzin;
+  src: url(/assets/fonts/Benzin-Medium.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vela Sans;
+  src: url(/assets/fonts/VelaSans-SemiBold.otf) format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: IBM Plex Mono;
+  font-weight: 400px;
+  font-size: 16px;
+  color: #fff;
+  background: #000;
+  font-style: normal;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+/* * {
+  scroll-behavior: smooth;
+} */
+
+.home__bg {
+  background: #fff;
+  margin-top: 25px;
+  border-radius: 23px;
+  padding-top: 25px;
+  height: 800px;
+  position: relative;
+}
+
+.container {
+  max-width: 1620px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  margin-bottom: 150px;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  color: #000;
+  font-weight: 400;
+  display: flex;
+  gap: 58px;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.navbar__item {
+  font-size: 18px;
+}
+
+.active {
+  font-weight: 500;
+  text-decoration: underline;
+}
+.btn {
+  padding: 10px 25px;
+  align-items: center;
+  border-radius: 10px;
+  background: #000;
+}
+
+.home__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home__info {
+  display: flex;
+  flex-direction: column;
+  gap: 81px;
+  align-items: flex-start;
+}
+
+.home__text {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.title {
+  font-family: Vela Sans;
+  font-weight: 600;
+  line-height: 113%;
+}
+
+h2 {
+  color: #000;
+  font-size: 83px;
+  letter-spacing: -0.86px;
+  text-transform: uppercase;
+}
+.subtitle {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: Inter;
+  font-size: 24px;
+}
+
+.home .btn {
+  padding: 25px 81px;
+  border-radius: 15px;
+}
+.hero__image {
+  position: absolute;
+  right: calc((100% - 1620px) / 2);
+  bottom: 0;
+}
+
+.about {
+  margin-top: 100px;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+h3 {
+  color: #fff;
+  font-size: 72px;
+  letter-spacing: -0.72px;
+}
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+.tabs__item {
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(12, 12, 12, 0.5);
+  backdrop-filter: blur(6.650000095367432px);
+  padding: 60px 116px;
+  text-align: center;
+  font-family: Benzin;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.tokenomics {
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(12, 12, 12, 0.5);
+  backdrop-filter: blur(6.650000095367432px);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+  width: 100%;
+}
+.tokenomics__text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-end;
+}
+
+.tokenomics__tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tokemonics__tabs-item {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -0.64px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  background: #181818;
+  padding: 15px 36px;
+}
+
+.buy {
+  margin-top: 100px;
+}
+
+.buy__content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.buy__tabs-item {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 372px;
+  padding-bottom: 61px;
+  padding-left: 50px;
+  border-radius: 30px;
+  background: rgba(12, 12, 12, 0.5);
+  backdrop-filter: blur(6.650000095367432px);
+}
+
+.step1 {
+  background-image: url(/assets/img/wallet.svg);
+  background-repeat: no-repeat;
+}
+
+.step2 {
+  background-image: url(/assets/img/swap.svg);
+  background-repeat: no-repeat;
+  background-position: 30px 0;
+}
+
+.step3 {
+  background-image: url(/assets/img/token.svg);
+  background-repeat: no-repeat;
+}
+
+.buy__tab-title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -0.64px;
+  text-transform: uppercase;
+}
+.buy__tab-desc {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40.003px;
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+}
+
+.buy__ca {
+  border-radius: 30px;
+  background: linear-gradient(90deg, #060606 0%, #131313 100%);
+  backdrop-filter: blur(6.650000095367432px);
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+  width: 100%;
+  align-items: center;
+  gap: 5px;
+}
+.address {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.social {
+  margin-top: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  border-radius: 59px;
+  background: #fff;
+}
+.social__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 95px;
+}
+.social__text {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+}
+h1.title {
+  text-align: center;
+  font-family: Benzin;
+  font-size: 96px;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+}
+.social__subtitle {
+  text-align: center;
+  font-family: Vela Sans;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 68.64px;
+  letter-spacing: -0.48px;
+}
+.social__links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.faq {
+  margin-top: 100px;
+}
+.faq__content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.faq .title {
+  text-align: center;
+}
+.faq__tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+.faq__item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: #0b0c0f;
+  padding: 25px;
+}
+.faq__question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-family: Inter;
+  font-weight: 600;
+  letter-spacing: -0.16px;
+}
+
+.open {
+  transform: rotate(180deg);
+}
+
+.closed {
+  transform: none;
+}
+.faq__answer {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.32px;
+  letter-spacing: -0.14px;
+  max-width: 1060px;
+
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in, opacity 0.5s ease-in,
+    margin-top 1ms ease-in;
+  text-decoration: none;
+}
+
+.faq__answer.active {
+  max-height: 1000px;
+  opacity: 1;
+  margin-top: 8px;
+}
+
+.hide {
+  display: none;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .navbar {
+  color: #fff;
+}
+
+a {
+  cursor: pointer;
+  z-index: 2;
+}
+
+a:hover {
+  scale: 1.1;
+  transition: 500ms;
+}
+
+button {
+  z-index: 2;
+  cursor: pointer;
+}
+
+.btn:hover {
+  scale: 1.1;
+  transition: 500ms;
+}
+
+.copy__button {
+  cursor: pointer;
+}
+
+@media (max-width: 1502px) {
+  .hero__image {
+    display: none;
+  }
+
+  .home__content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .home__info {
+    align-items: center;
+  }
+
+  .tokenomics {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .tabs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .buy__tabs-item {
+    text-align: center;
+    background-position: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .home__bg {
+    height: auto;
+    padding: 20px 0;
+  }
+  .header {
+    margin-bottom: 50px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .home__info {
+    gap: 40px;
+  }
+  .home__text {
+    gap: 20px;
+  }
+  h2 {
+    font-size: 52px;
+  }
+
+  h3.title {
+    font-size: 45px;
+  }
+
+  .tabs__item {
+    font-size: 23px;
+    padding: 30px 60px;
+  }
+
+  .tokenomics__text {
+    text-align: center;
+  }
+
+  .tokemonics__tabs-item {
+    font-size: 23px;
+    padding: 12px 20px;
+    text-align: center;
+  }
+
+  .buy__tabs-item {
+    padding-left: 0px;
+    padding-top: 300px;
+    gap: 20px;
+  }
+
+  .address {
+    font-size: 23px;
+  }
+  .social {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .social__content {
+    gap: 40px;
+  }
+
+  h1.title {
+    font-size: 65px;
+  }
+  .social__text {
+    gap: 20px;
+  }
+  .social__subtitle {
+    font-size: 32px;
+    line-height: 143%;
+  }
+
+  .faq {
+    margin-bottom: 45px;
+  }
+
+  .footer {
+    margin: 0;
+  }
+}
